@@ -14,7 +14,7 @@ public class book {
     private String author;
     private int inventory;
     private int kind;
-
+    
     public book(String name, int oprice, int num, String author, int inventory, int kind) {
         this.name = name;
         this.oprice = oprice;
@@ -23,58 +23,58 @@ public class book {
         this.inventory = inventory;
         this.kind = kind;
     }
-
+    
     public book() {
     }
-
+    
     public String getName() {
         return name;
     }
-
+    
     public void setName(String name) {
         this.name = name;
     }
-
+    
     public int getOprice() {
         return oprice;
     }
-
+    
     public void setOprice(int oprice) {
         this.oprice = oprice;
     }
-
+    
     public int getNum() {
         return num;
     }
-
+    
     public void setNum(int num) {
         this.num = num;
     }
-
+    
     public String getAuthor() {
         return author;
     }
-
+    
     public void setAuthor(String author) {
         this.author = author;
     }
-
+    
     public int getInventory() {
         return inventory;
     }
-
+    
     public void setInventory(int inventory) {
         this.inventory = inventory;
     }
-
+    
     public int getKind() {
         return kind;
     }
-
+    
     public void setKind(int kind) {
         this.kind = kind;
     }
-
+    
     @Override
     public String toString() {
         return "book{" +

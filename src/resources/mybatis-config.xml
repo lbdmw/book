@@ -45,7 +45,7 @@
 
     <mappers>
 <!--        <mapper resource="com/mapper/mapper.xml"/>-->
-        <package name="com_atlb_book.dao"/>
+        <package name="com_atlb_book.mapper"/>
     </mappers>
 
     <!--

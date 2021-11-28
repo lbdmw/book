@@ -1,6 +1,6 @@
 package com_atlb_book.service.impl;
 
-import com_atlb_book.dao.UserMapper;
+import com_atlb_book.mapper.UserMapper;
 import com_atlb_book.pojo.User;
 import com_atlb_book.service.UserService;
 import com_atlb_book.utils.MyBatisUtil;
