@@ -48,13 +48,13 @@
 			<!-- Header Top Right -->
 			<div class="header-top-right col-sm-6">
 				<ul class="language-currency float-right">
-					<!--<li><a href="#">ENG <i class="mo-arrow-down"></i></a>
-						<ul>
+					<li><a href="pages/manager/book_manager.jsp">管理员系统 <i class="mo-arrow-down"></i></a>
+						<%--<ul>
 							<li><a href="#">English</a></li>
 							<li><a href="#">French</a></li>
 							<li><a href="#">Spanish</a></li>
-						</ul>
-					</li>-->
+						</ul>--%>
+					</li>
 					<li><a href="#">注销 <i class="mo-arrow-down"></i></a>
 						<%--<ul>
 							<li><a href="#">Usd</a></li>
@@ -210,7 +210,7 @@
 </div>
 <!-- Mobile Menu
 ============================================ -->
-<div class="mobile-menu hidden-lg hidden-md fix">
+<%--<div class="mobile-menu hidden-lg hidden-md fix">
 	<nav>
 		<ul>
 			<li><a href="index.jsp">Home</a>
@@ -287,7 +287,7 @@
 			<li><a href="contact.html">contact</a></li>
 		</ul>
 	</nav>
-</div>
+</div>--%>
 <!-- Shop Page Banner
 ============================================ -->
 <div class="shop-page-banner">
@@ -355,7 +355,7 @@
 									<li><a href="#">Utilities</a></li>
 								</ul>--%>
 							</li>
-							<li class="closed"><a href="#">武侠小说</a>
+							<li class="closed"><a href="#">武侠秘籍</a>
 								<%--<ul>
 									<li><a href="#">Footwear</a></li>
 									<li><a href="#">Sunglasses</a></li>
@@ -465,46 +465,53 @@
 										<a href="#"><img src="img/product/6.jpg" alt="product"  width="270px" height="350px"/></a>
 										<!-- 产品内容徘徊 -->
 
-										<!--<div class="pro-hover fix" style="background-image: url('img/product/6.jpg');">
-											&lt;!&ndash; Product Hover Action &ndash;&gt;
+										<div class="pro-hover fix" style="background-image: url('img/product/6.jpg');">
+<%--											&lt;!&ndash; Product Hover Action &ndash;&gt;--%>
 											<div class="pro-hover-action animated text-center">
 												<button class="add-cart pro-action"><i class="mo-cart"></i></button>
-												<a href="#quick-view" class="quick-view pro-action" data-toggle="modal"><i class="mo-eye"></i></a>
-												<button class="wishlist pro-action"><i class="mo-heart"></i></button>
+<%--												<a href="#quick-view" class="quick-view pro-action" data-toggle="modal"><i class="mo-eye"></i></a>--%>
+<%--												<button class="wishlist pro-action"><i class="mo-heart"></i></button>--%>
 											</div>
-											&lt;!&ndash; Product Hover Options &ndash;&gt;
+<%--											&lt;!&ndash; Product Hover Options &ndash;&gt;--%>
 											<div class="pro-hover-option">
-												&lt;!&ndash; product Size &ndash;&gt;
+<%--												&lt;!&ndash; product Size &ndash;&gt;--%>
 												<div class="pro-size fix">
-													<h4>Sizes:</h4>
+													<h4>建议零售价:￥30</h4>
 													<ul>
-														<li>s</li>
-														<li>xs</li>
-														<li>m</li>
-														<li>l</li>
-														<li>xl</li>
-														<li>xxl</li>
+														<li><span class="sp1">作者:</span>
+															<span class="sp2">huojin</span>
+														</li>
+														<li>
+															<span class="sp1">书名:</span>
+															<span class="sp2">时间简史</span>
+														</li>
+														<li><span class="sp1">销量:</span>
+															<span class="sp2">23</span>
+														</li>
+														<li><span class="sp1">库存:</span>
+															<span class="sp2">977</span>
+														</li>
 													</ul>
 												</div>
-												&lt;!&ndash; product Color &ndash;&gt;
-												<div class="pro-color fix">
-													<h4>Colors:</h4>
-													<ul>
-														<li class="blue">b</li>
-														<li class="orange">o</li>
-														<li class="green">g</li>
-														<li class="purple">p</li>
-														<li class="pink">p</li>
-													</ul>
-												</div>
+<%--												&lt;!&ndash; product Color &ndash;&gt;--%>
+<%--												<div class="pro-color fix">--%>
+<%--													<h4>Colors:</h4>--%>
+<%--													<ul>--%>
+<%--														<li >b</li>--%>
+<%--														<li class="orange">o</li>--%>
+<%--														<li class="green">g</li>--%>
+<%--														<li class="purple">p</li>--%>
+<%--														<li class="pink">p</li>--%>
+<%--													</ul>--%>
+<%--												</div>--%>
 											</div>
-										</div>-->
+										</div>
 
 									</div>
 
 									<!-- Product Content -->
 									<div class="pro-content">
-										<div class="top fix">
+										<%--<div class="top fix">
 											<div style="text-align: center;">
 												<div class="book_info">
 													<div class="price book_name">
@@ -536,17 +543,17 @@
 													<button>加入购物车</button>
 												</div>
 											</div>
-										</div>
-										<!--<div class="bottom fix">
-											<a href="#" class="pro-cat float-left">Utilites</a>
+										</div>--%>
+										<div class="bottom fix">
+											<a href="#" class="pro-cat float-left">推荐指数：</a>
 											<div class="ratting float-right">
 												<i class="mo-star star active"></i>
 												<i class="mo-star star active"></i>
-												<i class="mo-star star"></i>
-												<i class="mo-star star"></i>
+												<i class="mo-star star active"></i>
+												<i class="mo-star star active"></i>
 												<i class="mo-star star"></i>
 											</div>
-										</div>-->
+										</div>
 									</div>
 								</div>
 							</div>
@@ -557,29 +564,36 @@
 									<div class="pro-image">
 										<a href="#"><img src="img/product/7.jpg" alt="product" width="270px" height="350px"/></a>
 										<!-- 产品内容 -->
-										<!--<div class="pro-hover fix" style="background-image: url('img/product/7.jpg');">
-											&lt;!&ndash; Product Hover Action &ndash;&gt;
+										<div class="pro-hover fix" style="background-image: url('img/product/7.jpg');">
+<%--											&lt;!&ndash; Product Hover Action &ndash;&gt;--%>
 											<div class="pro-hover-action animated text-center">
 												<button class="add-cart pro-action"><i class="mo-cart"></i></button>
-												<a href="#quick-view" class="quick-view pro-action" data-toggle="modal"><i class="mo-eye"></i></a>
-												<button class="wishlist pro-action"><i class="mo-heart"></i></button>
+<%--												<a href="#quick-view" class="quick-view pro-action" data-toggle="modal"><i class="mo-eye"></i></a>--%>
+<%--												<button class="wishlist pro-action"><i class="mo-heart"></i></button>--%>
 											</div>
-											&lt;!&ndash; Product Hover Options &ndash;&gt;
+<%--											&lt;!&ndash; Product Hover Options &ndash;&gt;--%>
 											<div class="pro-hover-option">
-												&lt;!&ndash; product Size &ndash;&gt;
+<%--												&lt;!&ndash; product Size &ndash;&gt;--%>
 												<div class="pro-size fix">
-													<h4>Sizes:</h4>
+													<h4>建议零售价:￥3</h4>
 													<ul>
-														<li>s</li>
-														<li>xs</li>
-														<li>m</li>
-														<li>l</li>
-														<li>xl</li>
-														<li>xxl</li>
+														<li><span class="sp1">作者:</span>
+															<span class="sp2">徐浩</span>
+														</li>
+														<li>
+															<span class="sp1">书名:</span>
+															<span class="sp2">java从入门到放弃</span>
+														</li>
+														<li><span class="sp1">销量:</span>
+															<span class="sp2">923</span>
+														</li>
+														<li><span class="sp1">库存:</span>
+															<span class="sp2">77</span>
+														</li>
 													</ul>
 												</div>
-												&lt;!&ndash; product Color &ndash;&gt;
-												<div class="pro-color fix">
+<%--												&lt;!&ndash; product Color &ndash;&gt;--%>
+												<%--<div class="pro-color fix">
 													<h4>Colors:</h4>
 													<ul>
 														<li class="blue">b</li>
@@ -588,14 +602,14 @@
 														<li class="purple">p</li>
 														<li class="pink">p</li>
 													</ul>
-												</div>
+												</div>--%>
 											</div>
-										</div>-->
+										</div>
 
 									</div>
 									<!-- Product Content -->
 									<div class="pro-content">
-										<div class="top fix">
+										<%--<div class="top fix">
 											<div style="text-align: center;">
 												<div class="book_info">
 													<div class="price book_name">
@@ -622,9 +636,9 @@
 													<button>加入购物车</button>
 												</div>
 											</div>
-										</div>
-										<!--<div class="bottom fix">
-											<a href="#" class="pro-cat float-left">Beauty</a>
+										</div>--%>
+										<div class="bottom fix">
+											<a href="#" class="pro-cat float-left">推荐指数：</a>
 											<div class="ratting float-right">
 												<i class="mo-star star active"></i>
 												<i class="mo-star star active"></i>
@@ -632,7 +646,7 @@
 												<i class="mo-star star"></i>
 												<i class="mo-star star"></i>
 											</div>
-										</div>-->
+										</div>
 									</div>
 								</div>
 							</div>
@@ -643,29 +657,36 @@
 									<div class="pro-image">
 										<a href="#"><img src="img/product/8.jpg" alt="product" width="270px" height="350px"/></a>
 										<!-- Product Hover Content -->
-										<!--<div class="pro-hover fix" style="background-image: url('img/product/8.jpg');">
-											&lt;!&ndash; Product Hover Action &ndash;&gt;
+										<div class="pro-hover fix" style="background-image: url('img/product/8.jpg');">
+<%--											&lt;!&ndash; Product Hover Action &ndash;&gt;--%>
 											<div class="pro-hover-action animated text-center">
 												<button class="add-cart pro-action"><i class="mo-cart"></i></button>
-												<a href="#quick-view" class="quick-view pro-action" data-toggle="modal"><i class="mo-eye"></i></a>
-												<button class="wishlist pro-action"><i class="mo-heart"></i></button>
+<%--												<a href="#quick-view" class="quick-view pro-action" data-toggle="modal"><i class="mo-eye"></i></a>--%>
+<%--												<button class="wishlist pro-action"><i class="mo-heart"></i></button>--%>
 											</div>
-											&lt;!&ndash; Product Hover Options &ndash;&gt;
+<%--											&lt;!&ndash; Product Hover Options &ndash;&gt;--%>
 											<div class="pro-hover-option">
-												&lt;!&ndash; product Size &ndash;&gt;
+<%--												&lt;!&ndash; product Size &ndash;&gt;--%>
 												<div class="pro-size fix">
-													<h4>Sizes:</h4>
+													<h4>建议零售价:￥3</h4>
 													<ul>
-														<li>s</li>
-														<li>xs</li>
-														<li>m</li>
-														<li>l</li>
-														<li>xl</li>
-														<li>xxl</li>
+														<li><span class="sp1">作者:</span>
+															<span class="sp2">徐浩</span>
+														</li>
+														<li>
+															<span class="sp1">书名:</span>
+															<span class="sp2">java从入门到放弃</span>
+														</li>
+														<li><span class="sp1">销量:</span>
+															<span class="sp2">923</span>
+														</li>
+														<li><span class="sp1">库存:</span>
+															<span class="sp2">77</span>
+														</li>
 													</ul>
 												</div>
-												&lt;!&ndash; product Color &ndash;&gt;
-												<div class="pro-color fix">
+<%--												&lt;!&ndash; product Color &ndash;&gt;--%>
+												<%--<div class="pro-color fix">
 													<h4>Colors:</h4>
 													<ul>
 														<li class="blue">b</li>
@@ -674,14 +695,14 @@
 														<li class="purple">p</li>
 														<li class="pink">p</li>
 													</ul>
-												</div>
+												</div>--%>
 											</div>
-										</div>-->
+										</div>
 
 									</div>
 									<!-- Product Content -->
 									<div class="pro-content">
-										<div class="top fix">
+										<%--<div class="top fix">
 											<div style="text-align: center;">
 												<div class="book_info">
 													<div class="price book_name">
@@ -708,9 +729,9 @@
 													<button>加入购物车</button>
 												</div>
 											</div>
-										</div>
-										<!--<div class="bottom fix">
-											<a href="#" class="pro-cat float-left">Fashion</a>
+										</div>--%>
+										<div class="bottom fix">
+											<a href="#" class="pro-cat float-left">推荐指数：</a>
 											<div class="ratting float-right">
 												<i class="mo-star star active"></i>
 												<i class="mo-star star active"></i>
@@ -718,7 +739,7 @@
 												<i class="mo-star star active"></i>
 												<i class="mo-star star"></i>
 											</div>
-										</div>-->
+										</div>
 									</div>
 								</div>
 							</div>
@@ -729,29 +750,36 @@
 									<div class="pro-image">
 										<a href="#"><img src="img/product/10.jpg" alt="product" width="270px" height="350px"/></a>
 										<!-- Product Hover Content -->
-										<!--<div class="pro-hover fix" style="background-image: url('img/product/10.jpg');">
-											&lt;!&ndash; Product Hover Action &ndash;&gt;
+										<div class="pro-hover fix" style="background-image: url('img/product/10.jpg');">
+<%--											&lt;!&ndash; Product Hover Action &ndash;&gt;--%>
 											<div class="pro-hover-action animated text-center">
 												<button class="add-cart pro-action"><i class="mo-cart"></i></button>
-												<a href="#quick-view" class="quick-view pro-action" data-toggle="modal"><i class="mo-eye"></i></a>
-												<button class="wishlist pro-action"><i class="mo-heart"></i></button>
+<%--												<a href="#quick-view" class="quick-view pro-action" data-toggle="modal"><i class="mo-eye"></i></a>--%>
+<%--												<button class="wishlist pro-action"><i class="mo-heart"></i></button>--%>
 											</div>
-											&lt;!&ndash; Product Hover Options &ndash;&gt;
+<%--											&lt;!&ndash; Product Hover Options &ndash;&gt;--%>
 											<div class="pro-hover-option">
-												&lt;!&ndash; product Size &ndash;&gt;
+<%--												&lt;!&ndash; product Size &ndash;&gt;--%>
 												<div class="pro-size fix">
-													<h4>Sizes:</h4>
+													<h4>建议零售价:￥3</h4>
 													<ul>
-														<li>s</li>
-														<li>xs</li>
-														<li>m</li>
-														<li>l</li>
-														<li>xl</li>
-														<li>xxl</li>
+														<li><span class="sp1">作者:</span>
+															<span class="sp2">徐浩</span>
+														</li>
+														<li>
+															<span class="sp1">书名:</span>
+															<span class="sp2">java从入门到放弃</span>
+														</li>
+														<li><span class="sp1">销量:</span>
+															<span class="sp2">923</span>
+														</li>
+														<li><span class="sp1">库存:</span>
+															<span class="sp2">77</span>
+														</li>
 													</ul>
 												</div>
-												&lt;!&ndash; product Color &ndash;&gt;
-												<div class="pro-color fix">
+<%--												&lt;!&ndash; product Color &ndash;&gt;--%>
+												<%--<div class="pro-color fix">
 													<h4>Colors:</h4>
 													<ul>
 														<li class="blue">b</li>
@@ -760,14 +788,14 @@
 														<li class="purple">p</li>
 														<li class="pink">p</li>
 													</ul>
-												</div>
+												</div>--%>
 											</div>
-										</div>-->
+										</div>
 
 									</div>
 									<!-- Product Content -->
 									<div class="pro-content">
-										<div class="top fix">
+										<%--<div class="top fix">
 											<div style="text-align: center;">
 												<div class="book_info">
 													<div class="price book_name">
@@ -794,9 +822,9 @@
 													<button>加入购物车</button>
 												</div>
 											</div>
-										</div>
-										<!--<div class="bottom fix">
-											<a href="#" class="pro-cat float-left">Skinny Fit </a>
+										</div>--%>
+										<div class="bottom fix">
+											<a href="#" class="pro-cat float-left"> 推荐指数：</a>
 											<div class="ratting float-right">
 												<i class="mo-star star active"></i>
 												<i class="mo-star star active"></i>
@@ -804,7 +832,7 @@
 												<i class="mo-star star"></i>
 												<i class="mo-star star"></i>
 											</div>
-										</div>-->
+										</div>
 									</div>
 								</div>
 							</div>
@@ -815,45 +843,52 @@
 									<div class="pro-image">
 										<a href="#"><img src="img/product/11.jpg" alt="product" width="270px" height="350px"/></a>
 										<!-- Product Hover Content -->
-										<!--<div class="pro-hover fix" style="background-image: url('img/product/11.jpg');">
+										<div class="pro-hover fix" style="background-image: url('img/product/11.jpg');">
 											&lt;!&ndash; Product Hover Action &ndash;&gt;
 											<div class="pro-hover-action animated text-center">
 												<button class="add-cart pro-action"><i class="mo-cart"></i></button>
-												<a href="#quick-view" class="quick-view pro-action" data-toggle="modal"><i class="mo-eye"></i></a>
-												<button class="wishlist pro-action"><i class="mo-heart"></i></button>
+<%--												<a href="#quick-view" class="quick-view pro-action" data-toggle="modal"><i class="mo-eye"></i></a>--%>
+<%--												<button class="wishlist pro-action"><i class="mo-heart"></i></button>--%>
 											</div>
-											&lt;!&ndash; Product Hover Options &ndash;&gt;
+<%--											&lt;!&ndash; Product Hover Options &ndash;&gt;--%>
 											<div class="pro-hover-option">
-												&lt;!&ndash; product Size &ndash;&gt;
+<%--												&lt;!&ndash; product Size &ndash;&gt;--%>
 												<div class="pro-size fix">
-													<h4>Sizes:</h4>
+													<h4>建议零售价:￥3</h4>
 													<ul>
-														<li>s</li>
-														<li>xs</li>
-														<li>m</li>
-														<li>l</li>
-														<li>xl</li>
-														<li>xxl</li>
+														<li><span class="sp1">作者:</span>
+															<span class="sp2">徐浩</span>
+														</li>
+														<li>
+															<span class="sp1">书名:</span>
+															<span class="sp2">java从入门到放弃</span>
+														</li>
+														<li><span class="sp1">销量:</span>
+															<span class="sp2">923</span>
+														</li>
+														<li><span class="sp1">库存:</span>
+															<span class="sp2">77</span>
+														</li>
 													</ul>
 												</div>
-												&lt;!&ndash; product Color &ndash;&gt;
-												<div class="pro-color fix">
-													<h4>Colors:</h4>
-													<ul>
-														<li class="blue">b</li>
-														<li class="orange">o</li>
-														<li class="green">g</li>
-														<li class="purple">p</li>
-														<li class="pink">p</li>
-													</ul>
-												</div>
+<%--												&lt;!&ndash; product Color &ndash;&gt;--%>
+<%--												<div class="pro-color fix">--%>
+<%--													<h4>Colors:</h4>--%>
+<%--													<ul>--%>
+<%--														<li class="blue">b</li>--%>
+<%--														<li class="orange">o</li>--%>
+<%--														<li class="green">g</li>--%>
+<%--														<li class="purple">p</li>--%>
+<%--														<li class="pink">p</li>--%>
+<%--													</ul>--%>
+<%--												</div>--%>
 											</div>
-										</div>-->
+										</div>
 
 									</div>
 									<!-- Product Content -->
 									<div class="pro-content">
-										<div class="top fix">
+										<%--<div class="top fix">
 											<div style="text-align: center;">
 												<div class="book_info">
 													<div class="price book_name">
@@ -880,9 +915,9 @@
 													<button>加入购物车</button>
 												</div>
 											</div>
-										</div>
-										<!--<div class="bottom fix">
-											<a href="#" class="pro-cat float-left">Womens wear</a>
+										</div>--%>
+										<div class="bottom fix">
+											<a href="#" class="pro-cat float-left">推荐指数：</a>
 											<div class="ratting float-right">
 												<i class="mo-star star active"></i>
 												<i class="mo-star star active"></i>
@@ -890,7 +925,7 @@
 												<i class="mo-star star"></i>
 												<i class="mo-star star"></i>
 											</div>
-										</div>-->
+										</div>
 									</div>
 								</div>
 							</div>
@@ -901,29 +936,36 @@
 									<div class="pro-image">
 										<a href="#"><img src="img/product/12.jpg" alt="product" width="270" height="350px"/></a>
 										<!-- Product Hover Content -->
-										<!--<div class="pro-hover fix" style="background-image: url('img/product/12.jpg');">
-											&lt;!&ndash; Product Hover Action &ndash;&gt;
+										<div class="pro-hover fix" style="background-image: url('img/product/12.jpg');">
+<%--											&lt;!&ndash; Product Hover Action &ndash;&gt;--%>
 											<div class="pro-hover-action animated text-center">
 												<button class="add-cart pro-action"><i class="mo-cart"></i></button>
-												<a href="#quick-view" class="quick-view pro-action" data-toggle="modal"><i class="mo-eye"></i></a>
-												<button class="wishlist pro-action"><i class="mo-heart"></i></button>
+<%--												<a href="#quick-view" class="quick-view pro-action" data-toggle="modal"><i class="mo-eye"></i></a>--%>
+<%--												<button class="wishlist pro-action"><i class="mo-heart"></i></button>--%>
 											</div>
-											&lt;!&ndash; Product Hover Options &ndash;&gt;
+<%--											&lt;!&ndash; Product Hover Options &ndash;&gt;--%>
 											<div class="pro-hover-option">
-												&lt;!&ndash; product Size &ndash;&gt;
+<%--												&lt;!&ndash; product Size &ndash;&gt;--%>
 												<div class="pro-size fix">
-													<h4>Sizes:</h4>
+													<h4>建议零售价:￥3</h4>
 													<ul>
-														<li>s</li>
-														<li>xs</li>
-														<li>m</li>
-														<li>l</li>
-														<li>xl</li>
-														<li>xxl</li>
+														<li><span class="sp1">作者:</span>
+															<span class="sp2">徐浩</span>
+														</li>
+														<li>
+															<span class="sp1">书名:</span>
+															<span class="sp2">java从入门到放弃</span>
+														</li>
+														<li><span class="sp1">销量:</span>
+															<span class="sp2">923</span>
+														</li>
+														<li><span class="sp1">库存:</span>
+															<span class="sp2">77</span>
+														</li>
 													</ul>
 												</div>
-												&lt;!&ndash; product Color &ndash;&gt;
-												<div class="pro-color fix">
+<%--												&lt;!&ndash; product Color &ndash;&gt;--%>
+												<%--<div class="pro-color fix">
 													<h4>Colors:</h4>
 													<ul>
 														<li class="blue">b</li>
@@ -932,14 +974,14 @@
 														<li class="purple">p</li>
 														<li class="pink">p</li>
 													</ul>
-												</div>
+												</div>--%>
 											</div>
-										</div>-->
+										</div>
 
 									</div>
 									<!-- Product Content -->
 									<div class="pro-content">
-										<div class="top fix">
+										<%--<div class="top fix">
 											<div style="text-align: center;">
 												<div class="book_info">
 													<div class="price book_name">
@@ -966,9 +1008,9 @@
 													<button>加入购物车</button>
 												</div>
 											</div>
-										</div>
-										<!--<div class="bottom fix">
-											<a href="#" class="pro-cat float-left">Mens shoe</a>
+										</div>--%>
+										<div class="bottom fix">
+											<a href="#" class="pro-cat float-left">推荐指数：</a>
 											<div class="ratting float-right">
 												<i class="mo-star star active"></i>
 												<i class="mo-star star active"></i>
@@ -976,7 +1018,7 @@
 												<i class="mo-star star active"></i>
 												<i class="mo-star star"></i>
 											</div>
-										</div>-->
+										</div>
 									</div>
 								</div>
 							</div>
@@ -1352,8 +1394,8 @@
 			<div class="row">
 				<!-- Footer Widget About -->
 				<div class="footer-widget footer-widget-about col-md-3 col-sm-5">
-					<img src="img/footer-logo.png" alt="" />
-					<p>Lorem ipsum dolor sit amet, consec adipisicing elit, sed do eiusmod empor incididunt oloremque laudantium,</p>
+					<img src="img/logo.png" alt="" />
+					<p>高端购物，我只来这里</p>
 					<div class="footer-social">
 						<a href="#"><i class="mo-facebook"></i></a>
 						<a href="#"><i class="mo-twitter"></i></a>
@@ -1363,13 +1405,13 @@
 				</div>
 				<!-- Footer Widget Address -->
 				<div class="footer-widget footer-widget-address col-md-2 col-md-offset-1 col-sm-5 col-sm-offset-2">
-					<h3>address</h3>
-					<p>1025-1035 Park Ave, <br />New York, <br />NY 10028, USA</p>
-					<p>+1 123-456-7890</p>
-					<p>sales@koolinc.com</p>
+					<h3>地址</h3>
+					<p>河南省<br />开封市 <br />龙亭区<br/> 河南应用技术职业学院<br/>b615宿舍</p>
+					<p>电话 19812676672</p>
+					<p>2239937310@qq.com</p>
 				</div>
 				<!-- Footer Widget Collection -->
-				<div class="footer-widget footer-widget-collection col-md-2 col-md-offset-1 col-sm-5">
+				<%--<div class="footer-widget footer-widget-collection col-md-2 col-md-offset-1 col-sm-5">
 					<h3>collection</h3>
 					<ul>
 						<li><a href="#">Men</a></li>
@@ -1379,15 +1421,14 @@
 						<li><a href="#">Sale</a></li>
 						<li><a href="#">Coming Soon</a></li>
 					</ul>
-				</div>
+				</div>--%>
 				<!-- Footer Widget Shop -->
 				<div class="footer-widget footer-widget-shop col-md-2 col-md-offset-1 col-sm-5 col-sm-offset-2">
-					<h3>shop</h3>
+					<h3>网上书城</h3>
 					<ul>
-						<li><a href="single-page.html">About Us</a></li>
-						<li><a href="single-page.html">Shipping Methods</a></li>
-						<li><a href="single-page.html">Career</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="single-page.html">关于我们</a></li>
+						<li><a href="single-page.html">开发人员：李勃，温伟伟，魏浩然，丁格，王晨光，焦红杰，侯晓龙</a></li>
+						<li><a href="contact.html">简言：处女作，希望大家轻点</a></li>
 					</ul>
 				</div>
 			</div>
@@ -1398,7 +1439,7 @@
 		<div class="container">
 			<div class="row">
 				<!-- Footer Copyright -->
-				<div class="copyright col-sm-6 text-left"><p>&copy; 2016 <a href="#">wilylab</a>. All Rights Reserved</p></div>
+				<div class="copyright col-sm-6 text-left"><p>&copy; 2016 <a href="#"></a>保留所有权利 版权所有 所有的权力保留 不得翻印</p></div>
 				<!-- Footer Payment -->
 				<div class="payment col-sm-6 text-right"><img src="img/payment.png" alt="payment" /></div>
 			</div>
